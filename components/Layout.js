@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from './Header'
+import Footer from './Footer'
 
 export const Layout = ({ children, pagina }) => {
     return (
@@ -13,6 +14,8 @@ export const Layout = ({ children, pagina }) => {
             <Header />
 
             {children}
+
+            <Footer />
         </div>
     )
 }

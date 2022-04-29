@@ -1,13 +1,13 @@
 import React from 'react'
 import { Layout } from '../components/Layout'
 
-const nosotros = () => {
+const tienda = () => {
     return (
         <Layout
-            pagina='Nosotros'>
-            <h1>Desde nosotros</h1>
+            pagina='Tienda Virtual'>
+            <h1>Desde Tienda</h1>
         </Layout>
     )
 }
 
-export default nosotros
+export default tienda

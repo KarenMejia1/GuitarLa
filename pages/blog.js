@@ -1,13 +1,13 @@
 import React from 'react'
 import { Layout } from '../components/Layout'
 
-const nosotros = () => {
+const blog = () => {
     return (
         <Layout
-            pagina='Nosotros'>
-            <h1>Desde nosotros</h1>
+            pagina='Blog'>
+            <h1>Desde Blog</h1>
         </Layout>
     )
 }
 
-export default nosotros
+export default blog
